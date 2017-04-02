@@ -1,0 +1,30 @@
+{
+    "name": "library",
+    "description": "Library NodeJs WebApplication",
+    "main": "app.js",
+    "authors": [
+    "Vijendra Kulhade"
+  ],
+    "license": "ISC",
+    "homepage": "",
+    "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+    "dependencies": {
+        "bootstrap": "^3.3.7",
+        "font-awesome": "^4.7.0"
+    },
+    "overrides": {
+        "bootstrap": {
+            "main": [
+    "less/bootstrap.less",
+    "dist/js/bootstrap.min.js",
+    "dist/css/bootstrap.css"
+  ]
+        }
+    }
+}
